@@ -60,18 +60,18 @@ header{
 .navbar a:hover{
     color: var(--main-color);
 }
-.card-shop{
+.cart-icon{
     display: flex;
     align-items: center;
 }
-.card-shop i{
+.cart-icon i{
     font-size: 20px;
     color: var(--text-color);
     margin-left:5px;
     margin-right: 20px;
     transition: all .50s ease;
 }
-.card-shop i:hover{
+.cart-icon i:hover{
     transform:transLateY(-4px);
     color: var(--main-color);
 }
@@ -89,7 +89,7 @@ header{
     cursor: pointer;
     display: none;
 }
-.card-shop span{
+.cart-icon span{
     display: flex;
     position: absolute;
     right:122px;
@@ -405,7 +405,34 @@ section{
     animation:change 10s infinite ease-in-out ;
      
 }
- 
+ /* @keyframes change{
+    0%
+    {
+        background-image: url(./desk1.webp);
+    }
+    20%
+    {
+        background-image:url(./to3.jpg);
+    }
+    40%
+    {
+        background-image: url(./to2.webp);
+
+    }
+    60%{
+        background-image: url(./desk1.webp);
+    }
+    80%
+    {
+        background-image: url(img6.jpg);
+
+    }
+    100%
+    {
+    background-image: url(./login.jpg);
+
+    } 
+} */
 .home-text h1{
     font-family: 'Leckerli one', cursive;
     font-size: var(--big-font);
@@ -414,7 +441,7 @@ section{
     margin-bottom: 25px;
 }
 .home-text p{
-    color:#434343;
+    color: var(--other-color);
     font-size: var(--p-font);
     line-height: 33px;
     margin-bottom: 60px;
@@ -846,7 +873,7 @@ form .input-box i{
         width:300px;
         height: 300px;
     }
-    .card-shop span{
+    .cart-icon span{
         right:155px
     }
    
