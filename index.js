@@ -126,7 +126,7 @@ closePop=()=>{
 //    add to card page
 document.addEventListener('DOMContentLoaded', () => {
   const addToCartButtons = document.querySelectorAll('.bbtn');
-  const cartItemsCount = document.querySelector('.cart-icon span');
+  const cartItemsCount = document.querySelector('.card-shop span');
   const cartItemsList = document.querySelector('.cart-items');
   const cartTotal = document.querySelector('.cart-total');
   const cartIcon = document.querySelector('.cart-icon');

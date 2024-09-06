@@ -60,18 +60,18 @@ header{
 .navbar a:hover{
     color: var(--main-color);
 }
-.cart-icon{
+.card-shop{
     display: flex;
     align-items: center;
 }
-.cart-icon i{
+.card-shop i{
     font-size: 20px;
     color: var(--text-color);
     margin-left:5px;
     margin-right: 20px;
     transition: all .50s ease;
 }
-.cart-icon i:hover{
+.card-shop i:hover{
     transform:transLateY(-4px);
     color: var(--main-color);
 }
@@ -89,7 +89,7 @@ header{
     cursor: pointer;
     display: none;
 }
-.cart-icon span{
+.card-shop span{
     display: flex;
     position: absolute;
     right:122px;
@@ -873,8 +873,8 @@ form .input-box i{
         width:300px;
         height: 300px;
     }
-    .cart-icon span{
-        right:155px
+    .card-shop span{
+        right:130px
     }
    
     
@@ -896,7 +896,7 @@ form .input-box i{
     .home{
         height: 85vh;
     }
-    .cart-icon span{
+    .card-shop span{
         right: 130px;
     }
    
